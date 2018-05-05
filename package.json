@@ -1,0 +1,21 @@
+{
+  "name": "botmasher-editor-info",
+  "main": "./lib/botmasher-editor-info",
+  "version": "0.0.1",
+  "description": "Display info about the active text editor",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "botmasher-editor-info:toggle"
+  },
+  "repository": "https://github.com/atom/botmasher-editor-info",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "deserializers": {
+    "botmasher-editor-info/BotmasherEditorInfoView": "deserializeBotmasherEditorInfoView"
+  }
+}

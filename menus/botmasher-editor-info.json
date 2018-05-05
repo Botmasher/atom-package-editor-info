@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle botmasher-editor-info",
+        "command": "botmasher-editor-info:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "botmasher-editor-info",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "botmasher-editor-info:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
